@@ -92,7 +92,7 @@ while repmenu == True:
         if len(busca)==5 and busca.isalnum(): 
             buscar_mascota(busca)
         else:
-            print("Ingrese rut válido.")
+            print("Ingrese ID válido.")
     if opcion== '4': 
         tipo=int(input("Ingrese especie: 1.Perro 2.Gato"))
         if tipo==1 or tipo==2:
